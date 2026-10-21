@@ -1,4 +1,4 @@
-/* Standup English: rastreamento, UTMs, checkout e consentimento (LGPD). Sem bibliotecas. */
+/* ME Language Learning: rastreamento, UTMs, checkout e consentimento (LGPD). Sem bibliotecas. */
 (function () {
   // [[FALTA: link do checkout]] Cole aqui a URL do checkout. Vazia = os botoes rolam ate a secao de oferta (#preco).
   var CHECKOUT_URL = "";
@@ -22,7 +22,7 @@
   }
   document.querySelectorAll(".js-comprar").forEach(function (e) {
     if (CHECKOUT_URL) e.href = urlCheckout();
-    e.addEventListener("click", function () { gbTrack("InitiateCheckout", { value: VALOR, currency: MOEDA, content_name: "Standup English" }) });
+    e.addEventListener("click", function () { gbTrack("InitiateCheckout", { value: VALOR, currency: MOEDA, content_name: "ME Language Learning" }) });
   });
 
   // 3) WhatsApp: a mensagem leva o angulo e a campanha
@@ -42,7 +42,7 @@
   }
   if (document.body.dataset.pagina === "obrigado") {
     var oid = q.get("order_id") || q.get("transaction_id") || "";
-    gbTrack("Purchase", { value: VALOR, currency: MOEDA, content_name: "Standup English", order_id: oid });
+    gbTrack("Purchase", { value: VALOR, currency: MOEDA, content_name: "ME Language Learning", order_id: oid });
   }
 
   // 5) Banner de consentimento

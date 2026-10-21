@@ -1,0 +1,33 @@
+/* ME Language Learning: logo e seções novas */
+.logo-me{display:inline-flex;align-items:center;gap:.6rem;color:var(--cor-sobre-escura);text-decoration:none}
+.logo-me svg{width:40px;height:40px}
+.logo-me b{display:block;font-family:var(--fonte-titulo);font-weight:700;font-size:1.2rem;letter-spacing:-.02em;line-height:1}
+.logo-me i{display:block;font-style:normal;font-family:var(--fonte-texto);font-weight:600;font-size:.66rem;letter-spacing:.28em;text-transform:uppercase;color:var(--cor-destaque);margin-top:.2rem}
+.sobre-clara .logo-me,.rodape .logo-me{color:var(--cor-texto)}
+/* aulas ao vivo */
+.aulas{background:var(--cor-fundo)}
+.aulas-grade{display:grid;gap:2.5rem;align-items:center}
+.aula-foto{position:relative;margin:0;border-radius:24px;overflow:hidden;box-shadow:0 0 0 3px var(--cor-roxo-claro),var(--sombra)}
+.aula-foto img{display:block;width:100%;height:auto;aspect-ratio:900/680;object-fit:cover}
+.aula-foto .tag-ai{left:1rem;top:1rem}
+.aulas p{color:var(--cor-texto-suave);max-width:58ch}
+.aula-lista{list-style:none;padding:0;margin:1.8rem 0 0;display:grid;gap:1rem}
+.aula-lista li{display:flex;gap:1rem;align-items:flex-start}
+.aula-lista li>span{flex:none;display:grid;place-items:center;width:3rem;height:3rem;border-radius:14px;background:var(--cor-fundo-dourado);color:var(--cor-roxo)}
+.aula-lista li>span svg{width:1.5rem;height:1.5rem}
+.aula-lista b{display:block;font-family:var(--fonte-titulo);font-size:1.05rem;color:var(--cor-texto)}
+.aula-lista div{color:var(--cor-texto-suave);font-size:.95rem}
+/* seis destaques */
+.destaques h2{max-width:26ch}
+.dest-grade.seis{margin-top:2rem}
+/* comunidade */
+.comunidade{background:var(--cor-fundo-dourado)}
+.com-grade{display:grid;gap:2rem;align-items:center}
+.comunidade p{color:var(--cor-texto-suave);max-width:52ch}
+.com-lista{list-style:none;padding:0;margin:0;display:grid;gap:1rem}
+.com-lista li{background:var(--cor-fundo);border-radius:var(--raio);padding:1.2rem 1.3rem;box-shadow:var(--sombra);color:var(--cor-texto-suave);font-size:.95rem;display:grid;grid-template-columns:3rem 1fr;column-gap:1rem;align-items:center}
+.com-lista li>span{grid-row:span 2;display:grid;place-items:center;width:3rem;height:3rem;border-radius:50%;background:var(--cor-roxo);color:#fff}
+.com-lista li>span svg{width:1.4rem;height:1.4rem}
+.com-lista b{color:var(--cor-texto);font-family:var(--fonte-titulo)}
+.final .assin{color:var(--cor-destaque)}
+@media(min-width:760px){.aulas-grade{grid-template-columns:1.05fr .95fr;gap:4rem}.dest-grade.seis{grid-template-columns:repeat(3,1fr)}.com-grade{grid-template-columns:1fr 1fr;gap:4rem}.com-lista{grid-template-columns:repeat(3,1fr)}.com-lista li{grid-template-columns:1fr;row-gap:.5rem}.com-lista li>span{grid-row:auto}}

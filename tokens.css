@@ -1,13 +1,14 @@
-/* Identidade Standup English (PROPOSTA, Pedro valida) · produto da Maria Eduarda Moraes · 2026-10-21 */
+/* Identidade Standup English (PROPOSTA v2, Pedro valida) · produto da Maria Eduarda Moraes · 2026-10-21
+   Roxo primário (marca) + laranja secundário (ação). */
 :root{
-  --cor-primaria:#0D1321; --cor-destaque:#FF6B47; --cor-texto:#0D1321; --cor-texto-suave:#4A5568;
-  --cor-fundo:#FFFFFF; --cor-fundo-alt:#F5F7FA; --cor-escura:#151D30; --cor-sobre-escura:#FFFFFF; --cor-linha:#E2E6EE;
+  --cor-primaria:#1E0F35; --cor-destaque:#FF7A3D; --cor-texto:#1E0F35; --cor-texto-suave:#5B4F70;
+  --cor-fundo:#FFFFFF; --cor-fundo-alt:#F7F3FC; --cor-escura:#2A1747; --cor-sobre-escura:#FFFFFF; --cor-linha:#E8DFF3;
   --cor-whatsapp:#25D366;
-  /* apoio */
-  --cor-acento:#2EC4B6;
+  /* marca */
+  --cor-roxo:#7A2DB8; --cor-roxo-claro:#B98AF0; --cor-acento:#C9A6F5;
   /* nomes herdados do modelo de site (mesma função, outra cor) */
-  --cor-lavanda:#B9C3D6; --cor-azul-medio:#2A3550;
-  --cor-destaque-texto:#C2381A; --cor-fundo-dourado:#FFF1EC;
+  --cor-lavanda:#CDBFE6; --cor-azul-medio:#45306B;
+  --cor-destaque-texto:#6A24A6; --cor-fundo-dourado:#F3EAFD;
   --fonte-titulo:"Space Grotesk", system-ui, sans-serif; --fonte-texto:"Inter", system-ui, sans-serif; --fonte-mono:"JetBrains Mono", ui-monospace, monospace;
-  --raio:14px; --sombra:0 8px 28px rgba(13,19,33,.12);
+  --raio:14px; --sombra:0 8px 28px rgba(30,15,53,.14);
 }

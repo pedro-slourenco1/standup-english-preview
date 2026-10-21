@@ -1,4 +1,2 @@
 User-agent: *
-Allow: /
-Disallow: /obrigado.html
-Sitemap: https://standupenglish.com.br/sitemap.xml
+Disallow: /
