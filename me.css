@@ -31,3 +31,44 @@
 .com-lista b{color:var(--cor-texto);font-family:var(--fonte-titulo)}
 .final .assin{color:var(--cor-destaque)}
 @media(min-width:760px){.aulas-grade{grid-template-columns:1.05fr .95fr;gap:4rem}.dest-grade.seis{grid-template-columns:repeat(3,1fr)}.com-grade{grid-template-columns:1fr 1fr;gap:4rem}.com-lista{grid-template-columns:repeat(3,1fr)}.com-lista li{grid-template-columns:1fr;row-gap:.5rem}.com-lista li>span{grid-row:auto}}
+/* "O destino": foto da aluna + celular no design novo do app (modelo alyx-ai.com/empresas) */
+.virada-comp{position:relative;padding-bottom:3rem}
+.virada-comp .virada-foto{width:88%}
+.phone{position:absolute;right:0;bottom:0;z-index:2;width:min(230px,52%)}
+.phone-bezel{background:linear-gradient(160deg,#2B2B2F 0%,#0E0E10 100%);border-radius:40px;padding:8px;box-shadow:0 30px 60px rgba(10,5,25,.45)}
+.phone-screen{position:relative;border-radius:33px;overflow:hidden;background:#fff;min-height:430px;display:flex;flex-direction:column;font-family:var(--fonte-texto);color:var(--cor-texto)}
+.phone-island{position:absolute;top:9px;left:50%;transform:translateX(-50%);width:34%;height:22px;background:#000;border-radius:999px;z-index:2}
+.ph-status{display:flex;justify-content:space-between;align-items:center;padding:12px 20px 0;font-size:11px;font-weight:700;height:38px}
+.ph-status i{display:inline-block;width:16px;height:8px;border:1.5px solid var(--cor-texto);border-radius:3px}
+.ph-body{flex:1;display:flex;flex-direction:column;gap:9px;padding:8px 13px 13px;background:linear-gradient(180deg,#fff 0%,var(--cor-fundo-dourado) 100%)}
+.ph-kicker{display:flex;align-items:center;gap:6px;font-size:9.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--cor-roxo)}
+.ph-kicker svg{width:12px;height:12px}
+.ph-title{margin:0;font-family:var(--fonte-titulo);font-size:14px;font-weight:700;line-height:1.3;color:var(--cor-texto)}
+.ph-chips{display:flex;gap:5px;flex-wrap:wrap}
+.ph-chip{font-size:10px;font-weight:700;padding:3px 8px;border-radius:999px;background:#EADCFB;color:var(--cor-destaque-texto)}
+.ph-rec{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--cor-linha);border-radius:12px;padding:7px 9px}
+.ph-rec-dot{width:8px;height:8px;border-radius:50%;background:#EF4444;box-shadow:0 0 0 3px rgba(239,68,68,.18);flex-shrink:0}
+.ph-wave{flex:1;display:flex;align-items:center;gap:2px;height:18px}
+.ph-wave span{flex:1;background:var(--cor-roxo-claro);border-radius:2px;animation:phwave 1.4s ease-in-out infinite}
+.ph-rec small{font-size:10px;font-weight:600;color:var(--cor-texto-suave)}
+.ph-bubble{margin:0;background:var(--cor-roxo);color:#fff;border-radius:14px;border-top-right-radius:4px;padding:9px 11px;font-size:12px;line-height:1.5}
+.ph-bubble .err{background:#FEE2E2;color:#B91C1C;text-decoration:line-through;text-decoration-thickness:2px;border-radius:4px;padding:0 3px}
+.ph-bubble .fix{background:#D1FAE5;color:#065F46;border-radius:4px;padding:0 4px;font-weight:700;text-decoration:none}
+.ph-live{display:flex;align-items:center;gap:6px;font-size:10px;font-weight:700;color:#047857}
+.ph-live i{width:7px;height:7px;border-radius:50%;background:#22C55E}
+.ph-duda{margin:0;background:#fff;border:1px solid var(--cor-linha);border-radius:12px;border-top-left-radius:4px;padding:7px 10px;font-size:11px;line-height:1.4;color:var(--cor-texto)}
+.ph-duda b{display:block;font-size:10px;color:var(--cor-roxo)}
+.ph-scores{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.ph-score{background:#fff;border:1px solid var(--cor-linha);border-radius:10px;padding:6px 8px;font-size:10px;font-weight:600;color:var(--cor-texto-suave)}
+.ph-score b{display:block;font-size:10.5px;color:var(--cor-texto);margin-bottom:4px}
+.ph-bar{display:block;height:5px;border-radius:3px;background:#EADCFB;overflow:hidden}
+.ph-bar i{display:block;height:100%;background:var(--cor-roxo);border-radius:3px}
+.ph-mic{margin-top:auto;align-self:center;width:42px;height:42px;border-radius:50%;background:var(--cor-roxo);color:#fff;display:grid;place-items:center;box-shadow:0 0 0 7px color-mix(in srgb,var(--cor-roxo) 18%,transparent)}
+.ph-mic svg{width:19px;height:19px}
+@keyframes phwave{0%,100%{transform:scaleY(.4)}50%{transform:scaleY(1)}}
+@media(prefers-reduced-motion:reduce){.ph-wave span{animation:none}}
+@media(max-width:759px){.virada-comp{padding-bottom:6rem}.phone{width:56%}}
+.virada .phone p,.virada .phone .ph-title{color:var(--cor-texto);max-width:none;margin:0}
+.virada .phone .ph-bubble{color:#fff}
+.virada .phone .ph-duda{color:var(--cor-texto)}
+@media(max-width:759px){.virada-comp{padding-bottom:0}.virada-comp .virada-foto{width:100%}.phone{position:relative;right:auto;bottom:auto;width:64%;margin:-5rem .5rem 0 auto}}
