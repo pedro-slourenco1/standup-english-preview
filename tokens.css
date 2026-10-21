@@ -1,0 +1,13 @@
+/* Identidade Standup English (PROPOSTA, Pedro valida) · produto da Maria Eduarda Moraes · 2026-10-21 */
+:root{
+  --cor-primaria:#0D1321; --cor-destaque:#FF6B47; --cor-texto:#0D1321; --cor-texto-suave:#4A5568;
+  --cor-fundo:#FFFFFF; --cor-fundo-alt:#F5F7FA; --cor-escura:#151D30; --cor-sobre-escura:#FFFFFF; --cor-linha:#E2E6EE;
+  --cor-whatsapp:#25D366;
+  /* apoio */
+  --cor-acento:#2EC4B6;
+  /* nomes herdados do modelo de site (mesma função, outra cor) */
+  --cor-lavanda:#B9C3D6; --cor-azul-medio:#2A3550;
+  --cor-destaque-texto:#C2381A; --cor-fundo-dourado:#FFF1EC;
+  --fonte-titulo:"Space Grotesk", system-ui, sans-serif; --fonte-texto:"Inter", system-ui, sans-serif; --fonte-mono:"JetBrains Mono", ui-monospace, monospace;
+  --raio:14px; --sombra:0 8px 28px rgba(13,19,33,.12);
+}

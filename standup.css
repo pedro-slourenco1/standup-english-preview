@@ -1,0 +1,36 @@
+/* Standup English: ajustes da marca sobre o modelo de site (Golden Bear) */
+h1,h2,h3,.valor{font-family:var(--fonte-titulo);letter-spacing:-.02em}
+body{font-family:var(--fonte-texto)}
+code{font-family:var(--fonte-mono);font-size:.92em}
+.hero .eyebrow code{color:var(--cor-acento);font-size:1em}
+.hero h1{font-weight:700}
+/* logo */
+.logo-se{display:inline-flex;align-items:center;gap:.55rem;color:var(--cor-sobre-escura);text-decoration:none}
+.logo-se svg{width:38px;height:38px}
+.logo-se b{font-family:var(--fonte-titulo);font-weight:700;font-size:1.3rem;letter-spacing:-.03em}
+.logo-se i{font-style:normal;font-family:var(--fonte-mono);color:var(--cor-destaque);font-size:1.1rem;margin-left:.25rem}
+.sobre-clara .logo-se,.rodape .logo-se{color:var(--cor-texto)}
+/* hero: celular com tag e balão */
+.fone-hero{position:relative;margin:1rem auto 2.5rem;width:min(270px,68vw);justify-self:center}
+.fone-hero img{display:block;width:100%;height:auto;aspect-ratio:480/1007;filter:drop-shadow(0 20px 50px color-mix(in srgb,var(--cor-destaque) 30%,transparent))}
+.tag-ai{position:absolute;top:1.2rem;left:-1rem;display:inline-flex;align-items:center;gap:.35rem;background:var(--cor-acento);color:var(--cor-primaria);font-weight:700;font-size:.82rem;padding:.35rem .75rem;border-radius:99px;box-shadow:var(--sombra)}
+.tag-ai svg{width:1rem;height:1rem}
+.fone-hero .bolha{position:absolute;right:-1.5rem;bottom:3rem;background:var(--cor-primaria);color:var(--cor-acento);border:1px solid var(--cor-acento);padding:.7rem .9rem;border-radius:12px;box-shadow:var(--sombra);font-size:.85rem;max-width:15rem}
+.fone-hero .bolha code{font-size:1em}
+/* simulados: terminal */
+.terminal{margin-top:2rem;background:#0A0F1A;border:1px solid var(--cor-azul-medio);border-radius:var(--raio);overflow:hidden;max-width:820px;box-shadow:var(--sombra)}
+.term-barra{display:flex;align-items:center;gap:.4rem;padding:.7rem 1rem;background:var(--cor-escura);border-bottom:1px solid var(--cor-azul-medio)}
+.term-barra i{width:.7rem;height:.7rem;border-radius:50%;background:var(--cor-destaque)}
+.term-barra i:nth-child(2){background:#FFC145}.term-barra i:nth-child(3){background:var(--cor-acento)}
+.term-barra span{margin-left:.6rem;font-family:var(--fonte-mono);font-size:.8rem;color:var(--cor-lavanda)}
+.term-item{padding:1rem 1.2rem;border-bottom:1px dashed var(--cor-azul-medio)}
+.term-item:last-child{border-bottom:0}
+.term-item code{color:var(--cor-acento);display:block;overflow-wrap:anywhere}
+.term-item p{margin:.35rem 0 0;color:var(--cor-sobre-escura)}
+.sim p{color:var(--cor-lavanda)}
+/* professora */
+.foto-prof{display:grid;place-items:center;min-height:240px;background:var(--cor-fundo);color:var(--cor-texto-suave);text-align:center;font-family:var(--fonte-mono);font-size:.9rem}
+.assin code{color:var(--cor-acento)}
+@media(min-width:760px){.hero .fone-hero{width:300px;margin:0 0 -3rem}.fone-hero .bolha{right:-3rem}}
+.topo .btn{white-space:nowrap;padding:.6rem 1rem;font-size:.9rem}
+@media(max-width:380px){.logo-se b{font-size:1.1rem}.logo-se i{font-size:.95rem}}
