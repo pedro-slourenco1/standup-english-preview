@@ -76,4 +76,4 @@
 .destaques:not(.dores)[aria-labelledby="dest"]{background:var(--cor-fundo-alt)}
 .depos{background:var(--cor-fundo-dourado)}
 /* foto de corpo inteiro no arco do hero */
-.hero-comp .arco{object-position:50% 8%;background:#EFE6FA}
+.hero-comp .arco{object-position:50% 20%;background:#EFE6FA}
