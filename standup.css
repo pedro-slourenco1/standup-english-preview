@@ -56,3 +56,10 @@ code{font-family:var(--fonte-mono);font-size:.92em}
 .ai-extras div{border:1px solid var(--cor-azul-medio);border-radius:var(--raio);padding:.9rem 1rem;color:var(--cor-lavanda);font-size:.92rem}
 .ai-extras strong{color:var(--cor-sobre-escura)}
 @media(min-width:760px){.hero .ai-hero{width:340px;margin:0 0 -3rem}.ai-hero .bolha{left:-3rem}.ai-grade{grid-template-columns:.85fr 1.15fr;gap:4rem}.ai-lista{grid-template-columns:1fr 1fr}.ai-extras{grid-template-columns:1fr 1fr}}
+/* dores logo depois do hero */
+.dores{background:var(--cor-fundo-alt)}
+.dores h2{max-width:22ch}
+.dores .dest-grade{margin-top:2rem}
+.dores .dest-ic{background:var(--cor-destaque);color:var(--cor-primaria)}
+.dores .fecho{margin-top:2rem;font-family:var(--fonte-titulo);font-weight:700;font-size:1.25rem;color:var(--cor-texto)}
+.destaques h2#dest{margin-bottom:2rem}
