@@ -72,3 +72,6 @@
 .virada .phone .ph-bubble{color:#fff}
 .virada .phone .ph-duda{color:var(--cor-texto)}
 @media(max-width:759px){.virada-comp{padding-bottom:0}.virada-comp .virada-foto{width:100%}.phone{position:relative;right:auto;bottom:auto;width:64%;margin:-5rem .5rem 0 auto}}
+/* alternância de fundos entre seções vizinhas */
+.destaques:not(.dores)[aria-labelledby="dest"]{background:var(--cor-fundo-alt)}
+.depos{background:var(--cor-fundo-dourado)}
