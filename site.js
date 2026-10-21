@@ -2,7 +2,7 @@
 (function () {
   // [[FALTA: link do checkout]] Cole aqui a URL do checkout. Vazia = os botoes rolam ate a secao de oferta (#preco).
   var CHECKOUT_URL = "";
-  var VALOR = 100, MOEDA = "BRL";
+  var VALOR = 97, MOEDA = "BRL";
   var KEY = "se_consent";
   var q = new URLSearchParams(location.search), a = q.get("a") || "0", t = q.get("utm_campaign") || "";
   var fila = [], pronto = false;
