@@ -100,3 +100,9 @@ code{font-family:var(--fonte-mono);font-size:.92em}
 .hc-prog img{display:block;width:100%;height:auto;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.3);background:#fff}
 .hc-prog figcaption{top:-.9rem}
 @media(min-width:760px){.hero .hero-comp{width:470px;margin:0}}
+/* mais largo (Pedro 21/10) */
+.wrap{width:min(1280px,100% - 2.5rem)}
+@media(min-width:1100px){.wrap{width:min(1280px,100% - 5rem)}}
+.hero h1{max-width:18ch}
+.hero .sub{max-width:58ch}
+.dores h2{max-width:28ch}
